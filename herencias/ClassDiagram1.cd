@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="herencias.Item">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="herencias.Berry">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Berry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="herencias.Weapon">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="herencias.Knife">
+    <Position X="4.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Knife.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="herencias.Stick">
+    <Position X="6.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Stick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="herencias.Container">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAIAAAAAAgAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Container.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Content" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="herencias.CellFloor">
+    <Position X="7" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABAAAAAAAAgAAAAAQAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>CellFloor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="herencias.CellWall">
+    <Position X="1.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABAAAAAAAAgAAAAAQAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>CellWall.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="herencias.RNG">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>RNG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="herencias.CellBush">
+    <Position X="5.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABAAAAAAAAgAAAAAQAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>CellBush.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="herencias.Player">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAMAAAAAAIABAgQAAAAgAgAIAACAAwQAgAAg=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playerMap" />
+      <Field Name="backpack" />
+      <Field Name="lunchBox" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="herencias.CellBridge">
+    <Position X="8.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABAAAAAAAAgAAAAAQAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>CellBridge.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="herencias.Map">
+    <Position X="14.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAACAAAAAAAIARACAAAAAACBEAAAAAAAAAA=</HashCode>
+      <FileName>Map.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="enemies" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="herencias.Enemy">
+    <Position X="10" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAEAAAAAAAQAAAAAAAAAAAAAAwAAAAAg=</HashCode>
+      <FileName>Enemy.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="enemyMap" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="herencias.MapRuins">
+    <Position X="16" Y="7.75" Width="1.5" />
+    <InheritanceLine Type="herencias.Map" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15" Y="7.151" />
+        <Point X="15" Y="7.51" />
+        <Point X="16.75" Y="7.51" />
+        <Point X="16.75" Y="7.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAARAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapRuins.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="herencias.MapRoom">
+    <Position X="14.25" Y="7.75" Width="1.5" />
+    <InheritanceLine Type="herencias.Map" FixedFromPoint="true">
+      <Path>
+        <Point X="15" Y="7.151" />
+        <Point X="15" Y="7.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAIARAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapRoom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="herencias.MapWalker">
+    <Position X="12.5" Y="7.75" Width="1.5" />
+    <InheritanceLine Type="herencias.Map" FixedFromPoint="true">
+      <Path>
+        <Point X="15" Y="7.151" />
+        <Point X="15" Y="7.51" />
+        <Point X="13.25" Y="7.51" />
+        <Point X="13.25" Y="7.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapWalker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="herencias.Game">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAEAAAAACAAABAIEgAAAAAAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="player" />
+      <Field Name="boss" />
+      <Field Name="map" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="herencias.CellDoorExit">
+    <Position X="3.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABAAAAAAAAgAAAAAQAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>CellDoorExit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="herencias.CellDoorEntry">
+    <Position X="5.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABAAAAAAAAgAAAAAQAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>CellDoorEntry.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="herencias.Bosses">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <AssociationLine Name="table" Type="herencias.Map" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17" Y="4.988" />
+        <Point X="17" Y="5.481" />
+        <Point X="15.75" Y="5.481" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAABAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bosses.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="table" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="balls" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="herencias.CellSky">
+    <Position X="3.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABAAAAAAAAgAAAAAQAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>CellSky.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="herencias.CellDoorSide">
+    <Position X="7" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABAAAAAAAAgAAAAAQAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>CellDoorSide.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="herencias.Utilities">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="herencias.Item" FixedToPoint="true">
+      <Path>
+        <Point X="6" Y="2.247" />
+        <Point X="6" Y="2.875" />
+        <Point X="3.5" Y="2.875" />
+        <Point X="3.5" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="herencias.MapBosses">
+    <Position X="17.75" Y="7.75" Width="1.5" />
+    <InheritanceLine Type="herencias.Map" FixedFromPoint="true">
+      <Path>
+        <Point X="15" Y="7.151" />
+        <Point X="15" Y="7.51" />
+        <Point X="18.5" Y="7.51" />
+        <Point X="18.5" Y="7.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapBosses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="herencias.BallForGames">
+    <Position X="19" Y="4.5" Width="1.5" />
+    <AssociationLine Name="map" Type="herencias.Map" FixedToPoint="true">
+      <Path>
+        <Point X="19" Y="6.067" />
+        <Point X="15.75" Y="6.067" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAIAAAAAAAAAAAQAAAAAAAAAAAAAAwAAAAAA=</HashCode>
+      <FileName>BallForGames.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="map" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="herencias.Final">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Final.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="herencias.Yuan">
+    <Position X="10" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Yuan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
